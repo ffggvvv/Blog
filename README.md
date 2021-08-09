@@ -1,37 +1,107 @@
-## Welcome to GitHub Pages
+<div align="right">
+  Language:
+  🇺🇸
+  <a title="Chinese" href="/README_CN.md">🇨🇳</a>
+</div>
 
-You can use the [editor on GitHub](https://github.com/ffggvvv/Blog/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# hexo-theme-butterfly
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/master?color=%231ab1ad&label=master)
+![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/dev?label=dev)
+![https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff](https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff)
+![hexo version](https://img.shields.io/badge/hexo-5.0+-0e83c)
+![license](https://img.shields.io/github/license/jerryc127/hexo-theme-butterfly?color=FF5531)
 
-### Markdown
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/theme-butterfly-readme.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Demo: 👍 [Butterfly](https://butterfly.js.org/)  ||   🤞 [MYW](https://immyw.com/)
 
-```markdown
-Syntax highlighted code block
+Docs: 📖 [Butterfly Docs](https://butterfly.js.org/posts/21cfbf15/)
 
-# Header 1
-## Header 2
-### Header 3
+Based on [hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody) theme.
 
-- Bulleted
-- List
+## Installation
 
-1. Numbered
-2. List
+### GIT
 
-**Bold** and _Italic_ and `Code` text
+> If you are in Mainland China, you can download in [Gitee](https://gitee.com/iamjerryw/hexo-theme-butterfly)
 
-[Link](url) and ![Image](src)
+Stable branch [recommend]:
+
+```
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Dev branch:
 
-### Jekyll Themes
+```
+git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ffggvvv/Blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### NPM
 
-### Support or Contact
+> It supports Hexo 5.0.0 or later
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+In Hexo site root directory 
+
+```powershell
+npm i hexo-theme-butterfly
+```
+
+## Configuration
+
+ Set theme in the hexo work folder's root config file `_config.yml`: 
+
+> theme: butterfly
+
+ If you don't have pug & stylus renderer, try this: 
+
+> npm install hexo-renderer-pug hexo-renderer-stylus
+
+## Features
+
+- [x] Card UI Design
+- [X] Support sub-menu
+- [x] Two Column designs
+- [x] Responsive Web Design
+- [x] Dark Mode
+- [x] Pjax
+- [x] Read Mode
+- [x] Conversion between Traditional and Simplified Chinese
+- [X] TOC catalog is available for both computers and mobile phones
+- [X] Color themes (darker/pale night/light/ocean/mac/mac light), support custom colors
+- [X] Code Blocks (Display code language/close or expand Code Blocks/Copy Button/word wrap)
+- [X] Disable copy/Add a Copyright Notice to the Copied Text
+- [X] Search (Algolia SearchZ/Local Search)
+- [x] Mathjax and Katex
+- [x] Built-in 404 page
+- [x] WordCount
+- [x] Related articles
+- [x] Displays outdated notice for a post
+- [x] Share (AddThis/Sharejs/Addtoany)
+- [X] Comment (Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo)
+- [x] Multiple Comment System Support
+- [x] Online Chats (Chatra/Tidio/Daovoice/Gitter/Crisp)
+- [x] Web analytics
+- [x] Google AdSense
+- [x] Webmaster Verification
+- [x] Change website colour scheme
+- [x] Typewriter Effect: activate_power_mode
+- [x] Background effects (Canvas ribbon/canvas_ribbon_piao/canvas_nest)
+- [x] Mouse click effects (Fireworks/Heart/Text)
+- [x] Preloader/Loading Animation
+- [x] Busuanzi visitor counter
+- [x] Medium Zoom/Fancybox
+- [x] Mermaid
+- [x] Justified Gallery
+- [x] Lazyload images
+- [x] Instantpage/Pangu/Snackbar notification toast/PWA......
+
+## Screenshots
+
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-1.jpg)
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-2.jpg)
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-3.jpg)
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-4.jpg)
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-1.png)
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-2.png)
